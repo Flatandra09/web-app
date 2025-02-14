@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:white;
+    color: black;
+    overflow-x: hidden;
+}
+
+logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    gap: 67%;
+ 
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   
+}
+
+a:hover{
+    color: orangered;
+    transition: 0.9s;
+}
+
+
+.hero-section{
+    height: 230px;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.hero{
+    color:black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sub-hero{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(173, 169, 169);
+}
+
+.btns{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.btn1{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 3px rgb(194, 192, 192);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn2{
+    height: 40px;
+    width: 200px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.cont{
+    height: 200px;
+    width: 95%;
+    padding-left: 70px;
+    display: flex;
+    gap:100px;
+    margin-top: 100px;
+}
+
+.cont1{
+    height:160px ;
+    width: 300px;
+    background-color:whitesmoke;
+    box-shadow: 0 2px 3px rgb(194, 192, 192);
+    color:black;
+    border-radius: 15px;
+}
+
+.border{
+    padding: 30px;
+    height: 90px;
+    width: 200px;
+    
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+article{
+    font-size: 13px;
+}
+
+span{
+    color: orangered;
+}
+
+@media (max-width:768px) {
+
+    nav{
+        left: 0;
+        top: 0;
+        padding: 18px;
+        padding-left: 20px;
+    }
+    ul{
+        display: none;
+    }
+
+    .hero{
+        font-size: 30px;
+       
+    }
+
+    .hero-section{
+        padding-top: 50px;
+        width: 85%;
+    }
+
+    .sub-hero{
+        font-size:15px ;
+    }
+
+    .btns{
+        display: block;
+        margin:0 auto;
+        padding: 0;
+        gap: 5px;
+    }
+
+    .btn1{
+        width: 99%;
+
+    }
+    .btn2{
+        width: 99%;
+        border:0.3px solid orangered;
+    }
+
+    .cont{
+        display: block;
+        gap: 10px;
+
+        margin: auto;
+        width: 0;
+        padding-right:90%;
+        margin-top:80px;
+    }
+
+    .cont1{
+        background-color: rgb(209, 206, 206);
+    }
+
+    .border{
+        width: 250px;
+    }
+}
+
